@@ -1,0 +1,20 @@
+%-------------------------------------------------------------------------------
+%	POSTER PAGE
+%	Header is required and editable; title / subtitle / abstract / figure are all
+%	optional -- delete any line you don't need to leave it blank.
+%	Add \newpage before this block if you want the poster on its own page.
+%-------------------------------------------------------------------------------
+\newpage
+\begin{cvposter}{科研主题：电力电子}
+\vfill
+  \postertitle{有源整流无线电机系统：基于双边移相控制的相位同步与效率优化}
+
+  \postersubtitle{发表于 \textit{《IEEE Transactions on Power Electronics》}}
+
+  \posterabstract{本文提出了一种新型有源整流无线电机（AR-WM）系统，并采用双边移相控制（DS-PSC）策略，不仅实现了双侧相位同步以消除无功功率，而且能够最大化系统效率。首先，通过检测次级谐振电流的过零点，将双侧变换器之间的相位角锁定在 90°，从而实现实时频率同步。其次，初级侧移相控制器负责确定负载电压以调节电机转速，而次级侧移相控制器则通过双侧相位同步和快速调节等效阻抗，实现双侧零相位角运行并跟踪最大效率工作点。此外，为提升无线电机系统的动态性能，采用积分有限时间控制方法，相比传统 PI 控制器可实现 43.89\% 的超调量降低。最终搭建了 180 W 实验样机，在 10 cm 传输距离下实现 92.37\% 的系统最高效率。}
+
+  % Insert your externally generated poster (PDF or PNG) and uncomment:
+  \posterfigure{pic/poster1.png}
+  \posterdoi{\doi{10.1109/TPEL.2024.3493093}}
+  \vfill
+\end{cvposter}

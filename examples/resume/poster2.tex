@@ -1,0 +1,20 @@
+%-------------------------------------------------------------------------------
+%	POSTER PAGE
+%	Header is required and editable; title / subtitle / abstract / figure are all
+%	optional -- delete any line you don't need to leave it blank.
+%	Add \newpage before this block if you want the poster on its own page.
+%-------------------------------------------------------------------------------
+\newpage
+\begin{cvposter}{科研主题：电力电子}
+\vfill
+  \postertitle{无线电能传输系统中基于极限学习机的自适应实用固定时间电压调节}
+
+  \postersubtitle{发表于 \textit{《Energies》}}
+
+  \posterabstract{本文针对存在集总不确定性的无线电能传输系统接收侧 DC--DC Buck 变换器，提出了一种基于极限学习机（Extreme Learning Machine, ELM）的自适应滑模控制策略。所提出的控制方法采用无奇异固定时间滑模（Fixed-Time Sliding Mode, FTSM）反馈控制，实现滑模变量和电压跟踪误差在固定时间内收敛。进一步设计了基于 ELM 的不确定性边界估计器，用于在线学习系统不确定性边界信息，从而有效降低滑模控制设计对先验边界信息的依赖。通过严格的闭环系统稳定性分析以及实验对比验证了该方法的有效性：控制器实现了近乎零超调；调节时间缩短 45.70\%～51.72\%；电压跟踪误差均方根值（RMS）降低 13.65\%～36.96\%。}
+
+  % Insert your externally generated poster (PDF or PNG) and uncomment:
+  \posterfigure{pic/poster2.png}
+  \posterdoi{\doi{10.3390/en16031016}}
+\vfill
+\end{cvposter}

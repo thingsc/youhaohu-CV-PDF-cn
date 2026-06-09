@@ -1,0 +1,86 @@
+%-------------------------------------------------------------------------------
+%	PROJECT POSTER PAGE (pure LaTeX, no external full-page image)
+%	Images are profile.png placeholders -- replace examples/profile with your own.
+%-------------------------------------------------------------------------------
+\newpage
+\begin{cvposter}{项目经历}
+
+\vfill
+  \postertitle{面向无人船的新型推进系统：无线供电全回转吊舱推进器}
+  \vspace{2mm}
+    \posterfigure{pic/project.png}
+
+\vfill
+
+  % %--- local helpers (scoped to this page) -------------------------------------
+  % \newcommand{\tri}{\textcolor{awesome}{\footnotesize\faCaretRight}}
+  % \newcommand{\panelcap}[1]{\par\vspace{0.6mm}{\centering\bfseries\color{awesome}#1\par}}
+  % \newcommand{\blockhead}[1]{{\skilltypestyle{#1}}\par\vspace{0.8mm}}
+  % % compact triangle bullet list
+  % \newenvironment{prlist}{%
+  %   \paragraphstyle
+  %   \begin{itemize}[label=\tri,leftmargin=1.4em,labelsep=0.5em,
+  %                   topsep=1pt,itemsep=2pt,parsep=0pt]}{%
+  %   \end{itemize}}
+  % % placeholder figure helper (fixed height keeps the layout stable)
+  % \newcommand{\ph}[1][2.6cm]{\includegraphics[width=\linewidth,height=#1,keepaspectratio]{examples/profile}}
+
+  % \noindent
+  % %================ LEFT COLUMN ================================================
+  % \begin{minipage}[t]{0.32\linewidth}
+  %   {\centering\ph[2.6cm]\par}
+  %   \vspace{2.5mm}
+
+  %   \blockhead{关键问题}
+  %   {\paragraphstyle 传统吊舱推进方案存在密封可靠性不足、维护成本高等问题。\par}
+  %   \vspace{3mm}
+
+  %   \blockhead{我的职责}
+  %   \begin{prlist}
+  %     \item 无线电能传输系统建模与参数设计
+  %     \item 高频无线电能变换器控制开发与系统集成
+  %     \item 电机驱动控制开发（FOC 矢量控制与实时控制）
+  %     \item 密封机械结构设计与三维建模
+  %     \item 原型系统集成、调试与实验验证
+  %   \end{prlist}
+  % \end{minipage}\hfill
+  % %================ RIGHT AREA =================================================
+  % \begin{minipage}[t]{0.65\linewidth}
+  %   %---- Row A: system topology ----
+  %   {\centering\ph[2.7cm]\par}
+  %   \panelcap{A. 系统拓扑结构}
+  %   \begin{prlist}
+  %     \item 用于无线电能传输的 SS 补偿型 WPT 系统
+  %   \end{prlist}
+  %   \vspace{2mm}\textcolor{lighttext}{\hrule height 0.3pt}\vspace{2.5mm}
+
+  %   %---- Row B | C ----
+  %   \begin{minipage}[t]{0.60\linewidth}
+  %     {\centering\ph[2.4cm]\par}
+  %     {\centering\footnotesize\color{graytext} GaN 电机驱动器\quad SiC 高频逆变器\par}
+  %     \panelcap{B. 自研硬件}
+  %   \end{minipage}\hfill
+  %   \begin{minipage}[t]{0.36\linewidth}
+  %     {\centering\ph[3.0cm]\par}
+  %     \panelcap{C. 三维结构建模}
+  %   \end{minipage}
+  %   \vspace{2mm}\textcolor{lighttext}{\hrule height 0.3pt}\vspace{2.5mm}
+
+  %   %---- Row: key specs | prototype ----
+  %   \begin{minipage}[t]{0.60\linewidth}
+  %     \blockhead{关键技术参数}
+  %     \begin{prlist}
+  %       \item 1200\,W GaN 电机驱动器
+  %       \item 5\,kW 集成式无线电能传输逆变器
+  %       \item 无线输电距离 5--10\,cm
+  %       \item 无线电能传输峰值效率 92\%
+  %       \item 面向全密封应用的结构设计
+  %     \end{prlist}
+  %   \end{minipage}\hfill
+  %   \begin{minipage}[t]{0.36\linewidth}
+  %     {\centering\ph[3.4cm]\par}
+  %     {\centering\footnotesize\color{graytext} 实验原型\par}
+  %   \end{minipage}
+  % \end{minipage}
+
+\end{cvposter}
